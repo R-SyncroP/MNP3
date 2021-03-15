@@ -1,0 +1,38 @@
+body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    font-size: 50px;
+}
+#body{
+    display: block;
+    text-align: center;
+}
+td{
+    border: 5px;
+    border-style: solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+}
+#one{
+    color: aquamarine;
+    border-color: black;
+}
+
+#three{
+    display: grid;
+}
+
+#top, #bottom{
+    grid-area: 1/1;
+}
+#top{
+    color: blue;
+}
