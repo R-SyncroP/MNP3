@@ -22,7 +22,7 @@ td{
     height: 150px;
 }
 #one{
-    color: aquamarine;
+    color: #7fffd4;
     border-color: black;
 }
 
@@ -34,5 +34,5 @@ td{
     grid-area: 1/1;
 }
 #top{
-    color: blue;
+    color: #3ad19f;
 }
